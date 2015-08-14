@@ -35,7 +35,7 @@ Follow the instructions at the end of the generator for configuring the SSL cert
 
 ## Changelog
 
-Recent changes can be viewed on Githb on the [Releases Page](releases)
+Recent changes can be viewed on Githb on the [Releases Page](https://github.com/andrewconnell/generator-nodehttps/releases)
 
 ## License
 

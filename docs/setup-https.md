@@ -42,7 +42,7 @@ To fix this you must configure the certificate as a Trusted Root Authority on yo
 ## Create a Self Signed Certificate
 In this step you will create a self-signed certificate, certificate request & public key using the tool **[OpenSSL](https://www.openssl.org/)**.
 
-> *Note: If you already have a SSL public key & private certificate from a Trusted Root Authority, you can jump to the step [Update server.js with SSL Key & Certificate]().*
+> *Note: If you already have a SSL public key & private certificate from a Trusted Root Authority, you can jump to the step [Update server.js with SSL Key & Certificate](setup-https.md#update-serverjs-with-ssl-key-and-certificate).*
 
 1. Open a **Terminal** prompt and enter the following command:
 
@@ -90,7 +90,7 @@ To fix this, you need to add the certificate as a trusted root authority.
 ## Add Self-Signed Certificate as Trusted Root Authority
 In this step you will add the self-signed certificate to your local machine as a Trusted Root Authority. These steps assume you are running OS X Yosemite v10.10.4.
 
-> *Note: If you already have a SSL public key & private certificate from a Trusted Root Authority, you can jump to the step [Update server.js with SSL Key & Certificate](Update-server.js-with-SSL-Key-and-Certificate).*
+> *Note: If you already have a SSL public key & private certificate from a Trusted Root Authority, you can jump to the step [Update server.js with SSL Key & Certificate](setup-https.md#update-serverjs-with-ssl-key-and-certificate).*
 
 1. Within Chrome, do the following:
 
