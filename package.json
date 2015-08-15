@@ -26,6 +26,8 @@
     "generator-common": "^0.2.0"
   },
   "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-node-inspector": "0.0.4",
     "mocha": "*"
   }
 }
