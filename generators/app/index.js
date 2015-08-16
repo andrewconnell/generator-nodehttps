@@ -4,13 +4,6 @@ var chalk = require('chalk');
 var yosay = require('yosay');
 
 module.exports = yeoman.generators.Base.extend({
-  /**
-   * Setup the generator target source with common HTTP files.
-   */
-  templates: function(){
-    this.composeWith('common',{});
-  },
-  
   init: function () {
     this.log(yosay(
       'Welcome to the Node.js HTTPS site generator!'
