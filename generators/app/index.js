@@ -86,19 +86,19 @@ module.exports = yeoman.generators.Base.extend({
    * Execute NPM & Bower installs.
    */
   install: function () {
-    var self = this;
+    var thisGenerator = this;
     
     this.installDependencies({
       bower: false,
       npm: true,
       skipInstall: false,
       callback: function () { 
-        self.log(yosay('All done, but there\'s work for you to do...'));
+        thisGenerator.log(yosay('All done, but there\'s work for you to do...'));
         
-        console.log('  You need to update the server.js file to reference the your SSL key and');
-        console.log('    certificate, the private/public pair that is used to serve the site as HTTPS.');
-        console.log('  Refer to this for more information: ' + chalk.blue('https://www.github.com/andrewconnell/generator-nodehttps/docs/setup-https.md'));
-        console.log('');
+        thisGenerator.log('  You need to update the server.js file to reference the your SSL key and');
+        thisGenerator.log('    certificate, the private/public pair that is used to serve the site as HTTPS.');
+        thisGenerator.log('  Refer to this for more information: ' + chalk.blue('https://www.github.com/andrewconnell/generator-nodehttps/docs/setup-https.md'));
+        thisGenerator.log('');
       }
     });
     
