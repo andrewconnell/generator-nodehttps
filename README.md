@@ -1,4 +1,4 @@
-# generator-nodehttps
+# generator-nodehttps [![Build Status](https://secure.travis-ci.org/andrewconnell/generator-nodehttps.png?branch=master)](https://travis-ci.org/andrew/generator-nodehttps)
 
 > [Yeoman](http://yeoman.io) generator for creating a locally hosted HTTPS site using Node.js.
 
@@ -13,25 +13,33 @@ In the future it will prompt you to provide the certificate & key for a commerci
 ## Install
 Install `yo` and `generator-nodehttps` globally using NPM:
 
-````bash
-npm install -g yo generator-nodehttps
-````
+```bash
+$ npm install -g yo generator-nodehttps
+```
 
 ## Usage
 
 Make a new directory and `cd` into it:
 
-````bash
-mkdir my-new-https-site && cd $_
-````
+```bash
+$ mkdir my-new-https-site && cd $_
+```
 
 Run `yo nodehttps`:
 
-````bash
-yo nodehttps
-````
+```bash
+$ yo nodehttps
+```
 
 Follow the instructions at the end of the generator for configuring the SSL certificate following these instructions: [Configure Express with SSL Certificate for HTTPS Development on OS X](docs/setup-https.md).
+
+## Running Tests
+
+Test the generator by running:
+
+```bash
+$ npm test
+```
 
 ## Changelog
 
