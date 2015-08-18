@@ -3,6 +3,8 @@
 var gulp = require('gulp');
 var spawn = require('child_process').spawn;
 var inspector = require('gulp-node-inspector');
+var which = require('which');
+var path = require('path');
 
 /**
  * Setup node inspector to debug app.
@@ -23,7 +25,7 @@ gulp.task('node-inspector', function () {
 gulp.task('run-yo', function () {
   spawn('node', [
     '--debug',
-    '/Users/ac/.npm-packages/lib/node_modules/yo/lib/cli.js',
+    path.join(which.sync('yo'), '../../', 'lib/node_modules/yo/lib/cli.js'),
     'nodehttps'], { stdio: 'inherit' });
 });
 
