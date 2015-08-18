@@ -79,7 +79,7 @@ describe('nodehttps:app', function () {
 
     it('sets correct values in package.json', function (done) {
       var exepctedValues = {
-        name: 'Test Project Name',
+        name: 'test-project-name',
         description: 'HTTPS site using Express and Node.js',
         version: '0.1.0',
         main: 'src/server/server.js',

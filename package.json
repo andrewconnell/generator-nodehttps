@@ -1,17 +1,17 @@
 {
   "name": "generator-nodehttps",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Yeoman generator for creating a locally hosted HTTPS site using a self-signed or commercially acquired X509 certificate.",
   "license": "MIT",
   "main": "app/index.js",
-  "repository": "andrewconnell/generator-nodehttps",
+  "repository": "https://github.com/andrewconnell/generator-nodehttps",
   "author": {
     "name": "Andrew Connell",
     "email": "me@andrewconnell.com",
     "url": "https://github.com/andrewconnell"
   },
   "scripts": {
-    "test": "mocha test -R spec"
+    "test": "mocha test -R spec"    
   },
   "files": [
     "generators"

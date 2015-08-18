@@ -26,7 +26,7 @@ module.exports = yeoman.generators.Base.extend({
     }];
 
     this.prompt(prompts, function (props) {
-      this.genConfig.projName = props.projName;
+      this.genConfig.projName = props.projName.toLowerCase().replace(/ /g, "-");;
       done();
     }.bind(this));
   },
