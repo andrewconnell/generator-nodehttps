@@ -5,7 +5,7 @@ var spawn = require('child_process').spawn;
 var inspector = require('gulp-node-inspector');
 var which = require('which');
 var path = require('path');
-
+var mocha = require('gulp-mocha');
 /**
  * Setup node inspector to debug app.
  */
@@ -30,6 +30,14 @@ gulp.task('run-yo', function () {
 });
 
 gulp.task('debug-yo', ['run-yo', 'node-inspector']);
+
+/**
+ * Execute all tests.
+ */
+gulp.task('run-tests', function () {
+  return gulp.src('test/**/*.js', { read: false })
+    .pipe(mocha({ reporter: 'spec' }));
+});
 
 /* default gulp task */
 gulp.task('default', ['node-inspector']);

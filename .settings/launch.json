@@ -2,7 +2,7 @@
   "version": "0.1.0",
   "configurations": [
     {
-      "name": "Debug Yeoman generator",
+      "name": "Launch yo",
       "type": "node",
       //  NOTE: this should be the result of running `which yo` on your system...
       //        for the typical NPM install & config, this is usually /usr/local/bin/yo
@@ -13,18 +13,7 @@
         "nodehttps",
         "--skip-install"
       ],
-      "stopOnEntry": false,
-      "cwd": ".",
-      // Workspace relative or absolute path to the runtime executable to be used. Default is the runtime executable on the PATH.
-      "runtimeExecutable": null,
-      // Optional arguments passed to the runtime executable.
-      "runtimeArgs": [
-        "--nolazy"
-      ],
-      // Environment variables passed to the program.
-      "env": {},
-      // If JavaScript source maps are enabled, the generated code is expected in this directory.
-      "outDir": null
+      "stopOnEntry": false
     }
   ]
 }
