@@ -1,6 +1,6 @@
 # generator-nodehttps 
 
-[![npm version](https://badge.fury.io/js/generator-nodehttps.svg)](http://badge.fury.io/js/generator-nodehttps) [![Build Status](https://secure.travis-ci.org/andrewconnell/generator-nodehttps.png?branch=master)](https://travis-ci.org/andrew/generator-nodehttps) [![Coverage Status](https://coveralls.io/repos/andrewconnell/generator-nodehttps/badge.svg?branch=master&service=github)](https://coveralls.io/github/andrewconnell/generator-nodehttps?branch=master)
+[![npm version](https://badge.fury.io/js/generator-nodehttps.svg)](http://badge.fury.io/js/generator-nodehttps) [![Build Status](https://secure.travis-ci.org/andrewconnell/generator-nodehttps.png?branch=master)](https://travis-ci.org/andrewconnell/generator-nodehttps) [![Coverage Status](https://coveralls.io/repos/andrewconnell/generator-nodehttps/badge.svg?branch=master&service=github)](https://coveralls.io/github/andrewconnell/generator-nodehttps?branch=master)
 
 > [Yeoman](http://yeoman.io) generator for creating a locally hosted HTTPS site using Node.js.
 
