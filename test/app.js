@@ -45,7 +45,7 @@ describe('nodehttps:app', function () {
       .on('end', done);
   });
 
-  after(function () {
+  after(function () {    
     mockery.disable();
   });
 
