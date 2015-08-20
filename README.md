@@ -1,4 +1,4 @@
-# generator-nodehttps [![Build Status](https://secure.travis-ci.org/andrewconnell/generator-nodehttps.png?branch=master)](https://travis-ci.org/andrew/generator-nodehttps)
+# generator-nodehttps [![npm version](https://badge.fury.io/js/generator-nodehttps.svg)](http://badge.fury.io/js/generator-nodehttps) [![Build Status](https://secure.travis-ci.org/andrewconnell/generator-nodehttps.png?branch=master)](https://travis-ci.org/andrew/generator-nodehttps)
 
 > [Yeoman](http://yeoman.io) generator for creating a locally hosted HTTPS site using Node.js.
 
